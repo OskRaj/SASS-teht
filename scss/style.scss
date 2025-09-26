@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'mixins';
+@import 'layout';
+
+@function make-darker($color, $amount: 10%) {
+  @return darken($color, $amount);
+}
+
+.special-btn {
+  $btn-color: $primary-color;
+  background-color: $btn-color;
+  border: 1px solid make-darker($btn-color, 20%);
+  
+  &:hover {
+    background-color: lighten($btn-color, 10%);
+  }
+}
+
+h1 {
+  color: make-darker($primary-color, 15%);
+  font-family: $heading-font;
+}
+
+.link {
+  color: $primary-color;
+  
+  &:hover {
+    color: darken($primary-color, 20%);
+  }
+}
