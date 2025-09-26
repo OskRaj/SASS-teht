@@ -63,7 +63,7 @@ body {
   border-radius: 5px;
 }
 .main-nav .nav-link.is-active {
-  background-color: #e74c3c;
+  background-color: #e84b39;
   border-radius: 5px;
 }
 
@@ -90,7 +90,7 @@ body {
   background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
 }
 .btn.btn-secondary {
-  background-color: #e74c3c;
+  background-color: #e84b39;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -98,11 +98,11 @@ body {
   cursor: pointer;
 }
 .btn.btn-secondary:hover {
-  background-color: rgb(213.698630137, 43.8356164384, 26.301369863);
+  background-color: rgb(213.2307692308, 44.1538461538, 24.7692307692);
 }
 
 .hero {
-  background: linear-gradient(45deg, #3498db, #e74c3c);
+  background: linear-gradient(45deg, #3498db, #e84b39);
   padding: 60px 0;
   text-align: center;
 }
@@ -149,8 +149,8 @@ body {
 }
 
 .sidebar h4 {
-  color: #e74c3c;
-  border-bottom: 2px solid #e74c3c;
+  color: #e84b39;
+  border-bottom: 2px solid #e84b39;
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
