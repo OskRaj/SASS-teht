@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Node.js dependencies
 node_modules/
 npm-debug.log*
@@ -41,7 +40,3 @@ Thumbs.db
 .env.development.local
 .env.test.local
 .env.production.local
-=======
-node_modules/
-.sass-cache/
->>>>>>> 8b892aeed308e870485926a6ea8c6c92dfff3a08
