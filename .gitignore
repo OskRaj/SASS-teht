@@ -7,9 +7,9 @@ yarn-error.log*
 
 *.json
 
-# Salli näyttökuvat
-!screenshot*.png
-!sivu*.png
+
+!Bistro_nettisivu*.png
+
 
 .DS_Store
 .DS_Store?
